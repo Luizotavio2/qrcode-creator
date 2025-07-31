@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    qrContainer.innerHTML = ""; // <- Aqui só funciona se qrContainer existir!
+    qrContainer.innerHTML = ""; 
 
     new QRCode(qrContainer, {
       text: url,
